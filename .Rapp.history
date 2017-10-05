@@ -1,0 +1,7 @@
+setwd("/Users/shanlee/Desktop/Project/git_io/shanl33.github.io")
+rmarkdown::render_site()
+q()
+rmarkdown::render_site()
+install.packages("rmarkdown")
+rmarkdown::render_site()
+q()

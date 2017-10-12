@@ -370,9 +370,9 @@ zmax_n <- power_n(2, tdist=FALSE)
 
 The power calculations using the t-distribution recommended sample sizes between `r tmin_n` and `r tmax_n`, for each treatment group, depending on the variability of measures for the treatment group. Based on the simulation, this seems to be a sensible range for the minimum required sample sizes for $\sigma_T \in [1.5, 2]$. Normal approximations for sample sizes generated similar results, [`r zmin_n`, `r zmax_n`]. There was not a big difference between the estimates obtained from the two approaches, because the degrees of freedom used were large enough for the t-distribution to be relatively symmetrical, rather than skewed. Furthermore the alternative distributions observed in the simulation appeared approximately normal.
 
-## References
+**References**
 
-#### Question 1
+*Question 1*
 
 Food and Agriculture Organization of the United Nations. (2017). FAOSTAT Lifestock Processed. Retrieved from <http://www.fao.org/faostat/en/#data/QP>
 
@@ -380,7 +380,8 @@ Statistics New Zealand. (2017). Retrieved from <http://www.stats.govt.nz/infosha
 
 The World Bank. (2017). International tourism, receipts (% of total exports). Retrieved from <https://data.worldbank.org/indicator/ST.INT.RCPT.XP.ZS>
 
-#### Question 2
+*Question 2*
+
 Teixeira, A., Rosa, Á., & Calapez, T. (2009). Statistical power analysis with microsoft excel: normal tests for one or two means as a prelude to using non-central distributions to calculate power. Journal of Statistics Education, 17(1), n1. 
 
 Wikipedia. (2016). Welch–Satterthwaite equation. Retrieved from <https://en.wikipedia.org/wiki/Welch%27s_t-test>
